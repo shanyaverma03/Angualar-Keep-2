@@ -1,5 +1,16 @@
 <!-- HeaderComponent to be displayed as part of AppComponent -->
 <app-header></app-header>
+<!-- 
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/login" routerLinkActive="active">Login</button>
+  <button mat-menu-item routerLink="/dashboard" routerLinkActive="active">Dashboard</button>
+  
+</mat-menu> -->
+<ul>
+    <li routerLink="/login">Login</li>
+    <li routerLink="/dashboard">Dashboard</li>
+</ul>
 
 <!-- Another component to be rendered based on route -->
 <router-outlet></router-outlet>

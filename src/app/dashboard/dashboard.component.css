@@ -1,0 +1,25 @@
+.note-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Take-a-note
+{
+    margin: 0% auto;
+    width: 80vw;
+}
+
+.note-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

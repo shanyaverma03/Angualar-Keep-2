@@ -1,0 +1,15 @@
+<strong *ngIf="submitMessage" class="error-message">{{submitMessage}}</strong>
+<div class="login-container">
+    <div class="login-form">
+        <h1>Login</h1>
+        <mat-form-field>
+            <input type="text" [formControl]="username" matInput placeholder="username">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="password" [formControl]="password" matInput placeholder="password">
+        </mat-form-field>
+
+    </div>
+    <input class='button' (click)="loginSubmit()" type="submit" value="Submit">
+</div>
